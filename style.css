@@ -1,0 +1,84 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 90%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+h1, p {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.txt, .txt-google, select, .select-google, form > div {
+  display: block;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.txt, .txt-google {
+  width: 80%;
+}
+
+select, .select-google {
+  width: 100%;
+  margin-top: 20px;
+}
+
+form > div {
+  width: 81%;
+}
+
+.txt, .txt-google, form > div {
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.container {
+  margin: 40px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+label {
+  float: left;
+  width: 10%;
+  line-height: 1.5;
+}
+
+.rate-value, .rate-value-google, .pitch-value, .pitch-value-google {
+  float: right;
+  width: 5%;
+  line-height: 1.5;
+}
+
+#rate, #rate-google, #pitch, #pitch-google {
+  float: right;
+  width: 81%;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.controls button {
+  padding: 10px;
+}
