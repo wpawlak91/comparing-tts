@@ -164,3 +164,5 @@ rate.onchange = function() {
 voiceSelect.onchange = function(){
     speak();
 }
+
+console.log('Test');
